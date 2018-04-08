@@ -1,0 +1,132 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>Контакты</title>
+  <meta name="description" content="Страница контактов. ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="img/icon.png" />
+
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-responsive.css">  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+</head>
+
+<body>
+
+
+<div class="preloader" id="preloader">
+    <div class="item">
+      <div class="spinner">
+      </div>
+    </div>
+</div>
+
+
+
+
+  <!--Header-->
+  <header id="fullscreen">
+    
+    
+      <div class="logo" id="full"><a class="ajax-link" href="index.html">Alkirks Limbo</a></div>
+      <li><a class="ajax-link" href="projects.html">Our Projects</a></li>
+      <li><a class="ajax-link" href="FAQ.html">FAQ</a></li>
+      
+
+
+  </header>
+
+  <div class="clear"></div>
+
+
+  <div class="content" id="ajax-content">
+
+        <div class="text-intro">
+
+          <h1>Обратная связь</h1>
+          <p>Заполните данную форму и мы не свяжемся с вами в ближайшее столетие.</p>
+
+
+
+
+          <form method="post" action="?" data-jkit="[form:validateonly=true]">
+          
+
+
+          <div class="contact-one">
+            <p>
+              <label for="miniusername">Никнейм:</label><br />
+              <input name="miniusername" id="miniusername" data-jkit="[validate:required=true;min=3;max=10;error=Пожалуйста введите ваш логин (3-10 символов)]">
+            </p>
+          </div>  
+          
+          <div class="contact-two">  
+            <p>
+              <label for="miniemail">E-mail:</label><br />
+              <input name="miniemail" id="miniemail" data-jkit="[validate:required=true;strength=50;error=Пожалуйста введите ваш email]">
+            </p>
+          </div>  
+          
+          <div class="contact-three">  
+            <p>
+              <label>Сообщение:</label><br />
+              <textarea id="message" name="message"></textarea>
+<br/><br/>
+              
+              <input class="button-submit" name="send" type="submit" value="Отправить" />
+            </p>
+          </div>        
+      
+            
+            <p>
+            </p>
+          </form>
+          
+          
+        </div>
+        
+	<br/><br/><br/><br/><br/><br/><br/><br/>      
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
+  <script src="js/jquery.waitforimages.js" type="text/javascript"></script>
+  <script src="js/typed.js" type="text/javascript"></script>
+  <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>  
+  <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>    
+  <script src="js/jquery.jkit.1.2.16.min.js"></script>
+ 
+  <script src="js/script.js" type="text/javascript"></script>
+  
+	<script>
+    $('#button, #buttons').on('click', function() {
+      $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
+    // Animation complete.
+    });
+  </script>
+
+
+</body>
+</html>
